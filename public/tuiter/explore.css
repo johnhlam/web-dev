@@ -1,58 +1,41 @@
-.wd-search-settings-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  overflow: hidden;
+@media (min-width: 992px) and (max-width: 1200px) {
+  .wd-tweet-button {
+      width: auto;
+  }
+} 
+
+@media (max-width: 992px), (min-width: 1200px) {
+    .wd-tweet-button {
+    width: 100%;
+  }
 }
 
-.wd-search-bar {
+.wd-stack-width {
+  max-width: 16px;
+}
+
+#spacex-text {
   color: white;
-  background-color: darkslategray;
-  border-radius: 15px;
-  padding: 6px;
-  width: 75%;
+  top: unset;
+  right: unset;
+  bottom: 0;
+  left: 0;
+}
+
+.wd-search-settings-header {
+  margin-bottom: 10px;
+}
+
+.wd-search-icon {
+  left: 10px;
+  top: 9px;
 }
 
 .wd-settings-button {
   color: rgb(45,146,222);
   text-decoration: none;
-  margin-right: 12px;
 }
 
-.wd-tabs-bar {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  clear: both;
-  display: inline-block;
-}
-
-.wd-selected-tab, .wd-nonselected-tab {
-  font-size: 15px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.wd-selected-tab {
-  padding: 16px 0px;
-  margin-right: 16px;
-  color: rgb(29,161,242);
-  border-bottom: solid rgb(29,161,242);
-}
-
-.wd-nonselected-tab {
-  font-size: 15px;
-  padding: 16px;
-  color: rgb(110,118,125);
-}
-
-.wd-thicker-bottom-border {
-  border-bottom-width: 12px;
-}
-
-.wd-post-article-image {
-  float: right;
-  height: 100px;
-  width: 100px;
-  border-radius: 15px; 
-  margin-right: 16px;
+.wd-text-gray {
+  color: darkslategray;
 }
