@@ -1,0 +1,46 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 3px 0px;
+}
+
+.wd-back-button:link {
+  color: rgb(6,69,173);
+  margin-bottom: 10px;
+}
+.wd-back-button:visited {
+  color: rgb(102,51,102);
+  margin-bottom: 10px;
+}
+
+.wd-background-black {
+  background-color: black;
+}
+
+.wd-border {
+  border: 1px solid rgb(47, 51, 54);
+  padding: 12px 0px 12px 16px;
+  clear: both;
+  overflow: hidden; 
+}
+
+.wd-title, .wd-author {
+  color: white;
+  font-weight: bold;
+}
+
+.wd-title {
+  font-size: 18px;
+}
+
+.wd-author {
+  font-size: 15px;
+}
+
+
+.wd-feed-details {
+  font-size: 13px;
+  color:rgb(110,118,125);
+}

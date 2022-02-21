@@ -1,0 +1,81 @@
+.wd-bookmarks-header {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.wd-profile-picture {
+  border-radius: 50%;
+  margin-right: 12px;
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+
+.wd-post-formatting {
+  margin-left: 12px;
+  overflow: hidden;
+}
+
+.wd-post-content {
+  font-size: 15px;
+  color: white;
+  max-width: 506px;
+  float: left; 
+  margin-bottom: 12px;
+}
+
+.wd-post-image {
+  width: 504px;
+  height: 264px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border: 1px solid rgb(47, 51, 54);
+  float: left; 
+  clear: both;
+}
+
+.wd-post-image-text-border {
+  max-width: 480px;
+  border: 1px solid rgb(47, 51, 54);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+  float: left;
+  clear: both;
+  overflow: hidden;
+}
+
+.wd-post-image-title {
+  font-size: 15px;
+  max-width: 480px; /* 504px - 24px = 480px */
+  margin-top: 0px;
+  margin-bottom: 12px;
+  float: left;
+}
+
+.wd-post-image-text {
+  font-size: 15px;
+  color: rgb(110,118,125);
+  max-width: 480px; /* 504px - 24px = 480px */
+  margin: 0px;
+  float: left;
+}
+
+.wd-post-stats-formatting {
+  display: flex;
+  max-width: 506px;
+  clear: both;
+}
+
+
+.wd-post-stats {
+  margin-right: 80px;
+  text-decoration: none;
+}
+
+.wd-post-stats-icon {
+  margin: 0px 12px;
+}
