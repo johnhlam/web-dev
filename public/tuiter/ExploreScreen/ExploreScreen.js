@@ -1,11 +1,7 @@
-import NavigationSidebar from '../NavigationSidebar/index.js'; // TODO: Why can't I just import from the folder?
-import ExploreComponent from "./ExploreComponent.js"; // TODO: Why do I need the extension here?
+import NavigationSidebar from '../NavigationSidebar/index.js';
+import ExploreComponent from "./ExploreComponent.js";
 import WhoToFollowList from '../WhoToFollowList/index.js';
 
-// TODO: How does this work?
-// TODO: Is there any functionality actually being added in this HW? It
-//       seems like we're rewriting everything using JQuery
-// TODO: How to fix fa-inverse to work properly to display checkmarks/more icon?
 (function ($) {
     $('#wd-explore').append(`
         <div class="row mt-2">

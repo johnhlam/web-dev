@@ -39,4 +39,3 @@ const NavigationSidebar = () =>  `
     </div>
     <button class="btn btn-primary rounded-pill my-2 wd-tweet-button" type="button">Tweet</button>`;
 export default NavigationSidebar;
-// TODO: Try coding most of the these items in a loop
