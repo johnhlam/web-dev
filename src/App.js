@@ -7,7 +7,7 @@ import './App.css';
 
 import HelloWorld from "./components/hello-world";
 import Labs from './components/labs';
-import Tuiter from './components/labs/tuiter';
+import Tuiter from './components/tuiter';
 
 function App() {
   return (
