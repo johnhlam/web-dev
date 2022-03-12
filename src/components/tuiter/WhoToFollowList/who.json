@@ -1,7 +1,8 @@
 [
   {
-    "avatarIcon": "images/java-logo.jpg", 
-    "userName": "Java", "handle": "Java"
+    "avatarIcon": "images/java-logo.jpg",
+    "userName": "Java",
+    "handle": "Java"
   },
   {
     "avatarIcon": "images/relativity-space-logo.jfif",
@@ -15,10 +16,12 @@
   },
   {
     "avatarIcon": "images/nasa-logo.png",
-    "userName": "NASA", "handle": "NASA"
+    "userName": "NASA",
+    "handle": "NASA"
   },
   {
     "avatarIcon": "images/tesla-logo.jpg",
-    "userName": "Tesla", "handle": "Tesla"
+    "userName": "Tesla",
+    "handle": "Tesla"
   }
 ]
