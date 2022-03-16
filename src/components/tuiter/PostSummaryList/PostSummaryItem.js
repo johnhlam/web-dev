@@ -6,7 +6,7 @@ const PostSummaryItem = ({
     topic: 'Web Development',
     userName: 'ReactJS',
     time: '2h',
-    image: 'images/react-logo.png', // TODO: Right now, all image paths are relative to the public/tuiter directory. Why?
+    image: './images/react-logo.png', // TODO: Right now, all image paths are relative to the public/tuiter directory. Why?
     title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
   }
 }) => (

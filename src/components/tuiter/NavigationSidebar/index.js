@@ -5,8 +5,6 @@ import navItems from './navItems';
 
 import './styles.css';
 import '../styles.css';
-console.log(navItems);
-console.log(navItems.map(navItem => <NavigationItem navItem={navItem} active="explore" />))
 
 const NavigationSidebar = ({ active = 'explore' }) => (
   <>

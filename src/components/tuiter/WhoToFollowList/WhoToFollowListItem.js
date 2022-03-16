@@ -3,7 +3,7 @@ import '../styles.css';
 
 const WhoToFollowListItem = ({
   who = {
-    avatarIcon: 'images/nasa-logo.png',
+    avatarIcon: './images/nasa-logo.png',
     userName: 'NASA',
     handle: 'NASA'
   } // TODO: Should I make a new images directory?

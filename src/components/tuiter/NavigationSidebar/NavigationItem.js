@@ -1,6 +1,5 @@
 import React from 'react';
 
-console.log('navitem');
 const NavigationItem = ({
   navItem = {
     faIcon: "fa-hashtag",
