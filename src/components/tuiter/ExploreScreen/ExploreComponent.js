@@ -20,7 +20,7 @@ const ExploreComponent = () => (
       <li className="nav-item"><a className="d-none d-md-block nav-link" href="">Entertainment</a></li>
     </ul>
     <div className="card">
-      <img className="img-fluid" src="./images/spacex-starship.jpg" />
+      <img className="img-fluid" src="/images/spacex-starship.jpg" />
       <h3 className="card-img-overlay card-text fw-bold" id="spacex-text">SpaceX's Starship</h3>
     </div>
     {PostSummaryList()}
