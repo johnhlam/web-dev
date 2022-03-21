@@ -6,7 +6,6 @@ const WhoToFollowListItem = ({
     avatarIcon: '/images/nasa-logo.png',
     userName: 'NASA',
     handle: 'NASA'
-  } // TODO: Should I make a new images directory?
 }) => (
   <div className="list-group-item">
     <div className="row align-items-center">
@@ -25,6 +24,4 @@ const WhoToFollowListItem = ({
     </div>
   </div>
 );
-// TODO: Is there a way to use the destructure syntax with default values?
-// TODO: Image won't load
 export default WhoToFollowListItem;

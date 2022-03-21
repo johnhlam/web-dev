@@ -23,5 +23,3 @@ function App() {
   );
 }
 export default App;
-
-// TODO: Fix vendors paths in old files (check stash)
