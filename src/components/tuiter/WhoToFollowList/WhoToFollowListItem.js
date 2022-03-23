@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles.css';
 
-const WhoToFollowListItem = ({
+const WhoToFollowListItem = (
   who = {
     avatarIcon: '/images/nasa-logo.png',
     userName: 'NASA',
     handle: 'NASA'
-}) => (
+  }) => (
   <div className="list-group-item">
     <div className="row align-items-center">
       <img className="col-3 rounded-circle" src={who.avatarIcon} />
