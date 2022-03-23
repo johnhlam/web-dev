@@ -19,7 +19,7 @@ const TuitListItem = ({ tuit }) => {
             <img className="rounded-circle wd-avatar-image" src={tuit['logo-image']} />
           </td>
           <td className="ps-3" style={{ width: '100%' }}>
-            <i onClick={deleteTuit} className="fa fa-remove fa-pull-right"></i>
+            <i onClick={deleteTuit} className="fa fa-remove fa-pull-right wd-clickable"></i>
             <span className="fw-bold">{tuit.postedBy.username}</span>
             {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
             <span className="ms-1 text-secondary">@{tuit.handle}</span>

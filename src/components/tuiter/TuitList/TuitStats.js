@@ -1,6 +1,8 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 
+import './styles.css';
+
 // TODO: Is this okay?
 // TuitStats copied from https://github.com/jannunzi/web-dev/blob/master/src/components/a7/Build/TweetList/TweetStats.js
 const TuitStats = ({ tuit }) => {
@@ -18,7 +20,7 @@ const TuitStats = ({ tuit }) => {
       <i className="fas fa-retweet me-2"></i>
       {tuit.stats.retuits}
     </div>
-    <div className="col" onClick={likeTuit}>
+    <div className="col wd-clickable" onClick={likeTuit}>
       {
         tuit.liked &&
         <i className="fas fa-heart me-2"

@@ -5,3 +5,7 @@
 .wd-border-radius-20px {
   border-radius: 20px;
 }
+
+.wd-clickable {
+  cursor: pointer;
+}
