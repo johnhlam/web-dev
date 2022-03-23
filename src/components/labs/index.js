@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Classes from './classes';
 import ConditionalOutput from './conditional-output';
+import ReduxExamples from './redux-examples';
 import Styles from './styles';
 import TodoItem from './todo/todo-item';
 import TodoList from './todo/todo-list';
@@ -16,9 +17,10 @@ const Labs = () => {
       <Classes />
       <TodoItem />
       <TodoList />
+      <ReduxExamples/>
       <Link to="/hello">
         Hello
-      </Link> |
+      </Link> | 
       <Link to="/tuiter">
         Tuiter
       </Link>
