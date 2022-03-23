@@ -24,7 +24,7 @@ const TuitStats = ({ tuit }) => {
       {
         tuit.liked &&
         <i className="fas fa-heart me-2"
-          style={{ color: tuit.liked ? 'red' : "white" }}></i>
+          style={{ color: tuit.liked ? 'red' : "white" }}></i> // TODO: Is it okay to use a style tag here? It's kinda annoying to have to make classes for this
       }
       {
         !tuit.liked &&

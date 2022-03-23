@@ -9,6 +9,7 @@ import HelloWorld from "./components/hello-world";
 import Labs from './components/labs';
 import Tuiter from './components/tuiter';
 import HomeScreen from './components/tuiter/HomeScreen';
+import ExploreComponent from './components/tuiter/ExploreScreen/ExploreComponent';
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
           <Route path="/tuiter" exact={true} element={<Tuiter />}>
             <Route index
               element={<HomeScreen />} />
-            {/* <Route path="explore"
-              element={<ExploreScreen />} />
-            <Route path="notifications"
+            <Route path="explore"
+              element={<ExploreComponent />} />
+            {/*<Route path="notifications"
               element={<NotificationScreen />} /> TODO: What am I supposed to do with these routes? */}
           </Route>
         </Routes>
