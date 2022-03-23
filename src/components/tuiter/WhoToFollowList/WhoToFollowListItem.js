@@ -8,7 +8,7 @@ const WhoToFollowListItem = ({
     handle: 'NASA',
   }
 }) => (
-  <div className="list-group-item">
+  <li className="list-group-item">
     <div className="row align-items-center">
       <img className="col-3 rounded-circle" src={who.avatarIcon} />
       <div className="col-6 text-nowrap">
@@ -23,6 +23,6 @@ const WhoToFollowListItem = ({
         <button className="btn btn-primary rounded-pill" type="button">Follow</button>
       </div>
     </div>
-  </div>
+  </li>
 );
 export default WhoToFollowListItem;

@@ -2,36 +2,36 @@
   {
     "faIcon": "fa-house-chimney",
     "text": "Home",
-    "link": "home.html"
+    "link": ""
   },
   {
     "faIcon": "fa-hashtag",
     "text": "Explore",
-    "link": "#"
+    "link": "./explore"
   },
   {
     "faIcon": "fa-bell",
     "text": "Notifications",
-    "link": "notifications.html"
+    "link": "./notifications"
   },
   {
     "faIcon": "fa-envelope",
     "text": "Messages",
-    "link": "messages.html"
+    "link": "./messages"
   },
   {
     "faIcon": "fa-bookmark",
     "text": "Bookmarks",
-    "link": "bookmarks.html"
+    "link": "./bookmarks"
   },
   {
     "faIcon": "fa-list",
     "text": "Lists",
-    "link": "lists.html"
+    "link": "./lists"
   },
   {
     "faIcon": "fa-user",
     "text": "Profile",
-    "link": "profile.html"
+    "link": "./profile"
   }  
 ]

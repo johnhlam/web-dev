@@ -25,10 +25,10 @@ const WhatsHappening = () => {
           setWhatsHappening(event.target.value)}>
         </textarea>
         <div>
-          <i class="fa-solid fa-image me-3"></i> {/* TODO: Should I make this an anchor (like the settings button), or a clickable i tag, or neither? */}
-          <i class="fa-solid fa-chart-line me-3"></i>
-          <i class="fa-solid fa-face-smile me-3"></i>
-          <i class="fa-solid fa-calendar me-3"></i>
+          <i className="fa-solid fa-image me-3"></i> {/* TODO: Should I make this an anchor (like the settings button), or a clickable i tag, or neither? */}
+          <i className="fa-solid fa-chart-line me-3"></i>
+          <i className="fa-solid fa-face-smile me-3"></i>
+          <i className="fa-solid fa-calendar me-3"></i>
           <button className="btn btn-primary rounded-pill fa-pull-right" onClick={tuitClickHandler}>
             Tuit
           </button>

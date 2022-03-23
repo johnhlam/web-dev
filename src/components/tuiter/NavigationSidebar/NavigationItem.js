@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavigationItem = ({
   navItem = {
@@ -6,15 +7,15 @@ const NavigationItem = ({
     text: "Explore",
     active: true,
     link: "#",
-  }
-}, // TODO: Convert other json files into reducers
-  active = 'explore') => (
-  <a
-    className={`list-group-item list-group-item-action${navItem.text === active ? ' active' : ''}`}
-    href={navItem.link}>
+  }, // TODO: Convert other json files into reducers
+  active = 'explore'
+}) => (
+  <Link
+    className={`list-group-item list-group-item-action${navItem.text.localeCompare(active, undefined, { sensitivity: 'accent' }) === 0 ? ' active' : ''}`}
+    to={navItem.link}>
     <i className={`fa-solid ${navItem.faIcon}`}></i>
     <span className="d-none d-xl-inline">{navItem.text}</span>
-  </a>
+  </Link>
 );
 
 export default NavigationItem;

@@ -13,11 +13,11 @@ const ExploreComponent = () => (
       </a>
     </div>
     <ul className="nav nav-tabs mb-2">
-      <li className="nav-item"><a className="nav-link active" href="">For you</a></li>
-      <li className="nav-item"><a className="nav-link" href="">Trending</a></li>
-      <li className="nav-item"><a className="nav-link" href="">News</a></li>
-      <li className="nav-item"><a className="nav-link" href="">Sports</a></li>
-      <li className="nav-item"><a className="d-none d-md-block nav-link" href="">Entertainment</a></li>
+      <li key="for-you" className="nav-item"><a className="nav-link active" href="">For you</a></li>
+      <li key="trending" className="nav-item"><a className="nav-link" href="">Trending</a></li>
+      <li key="news" className="nav-item"><a className="nav-link" href="">News</a></li>
+      <li key="sports" className="nav-item"><a className="nav-link" href="">Sports</a></li>
+      <li key="entertainment" className="nav-item"><a className="d-none d-md-block nav-link" href="">Entertainment</a></li>
     </ul>
     <div className="card">
       <img className="img-fluid" src="/images/spacex-starship.jpg" />
