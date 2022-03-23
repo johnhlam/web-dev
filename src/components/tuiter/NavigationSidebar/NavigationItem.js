@@ -7,7 +7,7 @@ const NavigationItem = ({
     active: true,
     link: "#",
   }
-},
+}, // TODO: Convert other json files into reducers
   active = 'explore') => (
   <a
     className={`list-group-item list-group-item-action${navItem.text === active ? ' active' : ''}`}

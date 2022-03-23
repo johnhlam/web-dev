@@ -5,12 +5,12 @@ import navItems from './navItems';
 
 import './styles.css';
 import '../styles.css';
-
+// TODO: How to convert navitems into Routes instead of anchor links?
 const NavigationSidebar = ({ active = 'explore' }) => (
   <>
     <div className="list-group">
       <span className="list-group-item"><i className="fa-brands fa-twitter"></i></span>
-      {navItems.map(navItem => <NavigationItem navItem={navItem} active={active} />)}
+      {navItems.map(navItem => <NavigationItem navItem={navItem} active={active} />)} 
       <a className="list-group-item list-group-item-action" href="more.html">
         <span className="fa-stack wd-stack-width">
           <i className="fa-solid fa-circle fa-stack-1x"></i>

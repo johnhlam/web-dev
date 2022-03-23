@@ -2,8 +2,6 @@ import React from "react";
 import './styles.css';
 import TuitStats from "./TuitStats";
 import { useDispatch } from "react-redux";
-// TODO: Is this okay?
-// TuitListItem component copied from https://github.com/jannunzi/web-dev/blob/master/src/components/a7/Build/TweetList/TweetListItem.js
 const TuitListItem = ({ tuit }) => {
   const dispatch = useDispatch();
   const deleteTuit = () => {
@@ -12,9 +10,9 @@ const TuitListItem = ({ tuit }) => {
   // TODO: What should I do with the time/title/avatar-image fields of the tuit?
   return (
     <li className="list-group-item">
-      <img className="float-start align-text-top rounded-circle wd-avatar-image" src={tuit['logo-image']} />
-      <div className="overflow-hidden ps-3">
-        <i onClick={deleteTuit} className="fa fa-remove fa-pull-right wd-clickable"></i>
+      <img className="fa-pull-left align-text-top rounded-circle wd-avatar-image" src={tuit['logo-image']} />
+      <div className="overflow-hidden ps-3"> {/* TODO: Why does overflow-hidden work here?*/}
+        <i onClick={deleteTuit} className="fa fa-remove fa-pull-right wd-clickable"></i> {/* TODO: Why are these done with i tags instead of buttons? */}
         <span className="fw-bold">{tuit.postedBy.username}</span>
         {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
         <span className="ms-1 text-secondary">@{tuit.handle}</span>
