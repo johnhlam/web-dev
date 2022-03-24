@@ -7,7 +7,7 @@ const NavigationItem = ({
     text: "Explore",
     active: true,
     link: "#",
-  }, // TODO: Convert other json files into reducers
+  }, 
   active = 'explore'
 }) => (
   <Link
