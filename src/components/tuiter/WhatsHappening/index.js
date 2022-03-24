@@ -3,18 +3,14 @@ import { useDispatch } from 'react-redux';
 
 import './styles.css';
 
-// TODO: Make elements match color theme
-// TODO: Do I have to add the PFP, placeholder, and other icons?
 const WhatsHappening = () => {
   const dispatch = useDispatch();
   let [whatsHappening, setWhatsHappening] = useState('');
-  // TODO: Is it possible to make actions async?
   const tuitClickHandler = () => {
     dispatch({
       type: 'create-tuit',
       tuit: whatsHappening
     });
-    // TODO: Should I clear the text area here?
     setWhatsHappening('');
   };
   return (
@@ -25,10 +21,10 @@ const WhatsHappening = () => {
           setWhatsHappening(event.target.value)}>
         </textarea>
         <div>
-          <i className="fa-solid fa-image me-3"></i> {/* TODO: Should I make this an anchor (like the settings button), or a clickable i tag, or neither? */}
-          <i className="fa-solid fa-chart-line me-3"></i>
-          <i className="fa-solid fa-face-smile me-3"></i>
-          <i className="fa-solid fa-calendar me-3"></i>
+          <i className="fa-solid fa-image me-3 wd-clickable-icons"></i>
+          <i className="fa-solid fa-chart-line me-3 wd-clickable-icons"></i>
+          <i className="fa-solid fa-face-smile me-3 wd-clickable-icons"></i>
+          <i className="fa-solid fa-calendar me-3 wd-clickable-icons"></i>
           <button className="btn btn-primary rounded-pill fa-pull-right" onClick={tuitClickHandler}>
             Tuit
           </button>

@@ -3,8 +3,6 @@ import { useDispatch } from "react-redux";
 
 import './styles.css';
 
-// TODO: Is this okay?
-// TuitStats copied from https://github.com/jannunzi/web-dev/blob/master/src/components/a7/Build/TweetList/TweetStats.js
 const TuitStats = ({ tuit }) => {
   const dispatch = useDispatch();
   const likeTuit = () => {
@@ -13,7 +11,7 @@ const TuitStats = ({ tuit }) => {
 
   return (<div className="row mt-2">
     <div className="col">
-      <i className="far fa-comment me-2"></i>
+      <i className="fas fa-comment me-2"></i>
       {tuit.stats.comments}
     </div>
     <div className="col">
@@ -24,11 +22,11 @@ const TuitStats = ({ tuit }) => {
       {
         tuit.liked &&
         <i className="fas fa-heart me-2"
-          style={{ color: tuit.liked ? 'red' : "white" }}></i> // TODO: Is it okay to use a style tag here? It's kinda annoying to have to make classes for this
+          style={{ color: tuit.liked ? 'red' : "white" }}></i>
       }
       {
         !tuit.liked &&
-        <i className="far fa-heart me-2"></i>
+        <i className="fas fa-heart me-2"></i>
       }
       {tuit.stats.likes}
     </div>

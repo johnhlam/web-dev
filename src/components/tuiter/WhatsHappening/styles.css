@@ -2,3 +2,8 @@
   color: white;
   background-color: #222;
 }
+
+.wd-clickable-icons {
+  cursor: pointer;
+  color: rgb(45,146,222);
+}
