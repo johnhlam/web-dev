@@ -19,12 +19,14 @@ function App() {
           <Route path="/hello" exact={true} element={<HelloWorld />} />
           <Route path="/" exact={true} element={<Labs />} />
           <Route path="/tuiter" exact={true} element={<Tuiter />}>
-            <Route index
-              element={<HomeScreen />} />
-            <Route path="explore"
-              element={<ExploreComponent />} />
-            {/*<Route path="notifications"
-              element={<NotificationScreen />} /> TODO: What am I supposed to do with these routes? */}
+            <Route index element={<HomeScreen />} />
+            <Route path="explore" element={<ExploreComponent />} />
+            <Route path="notifications" element={<></>} />
+            <Route path="messages" element={<></>} />
+            <Route path="bookmarks" element={<></>} />
+            <Route path="lists" element={<></>} />
+            <Route path="profile" element={<></>} />
+            <Route path="more" element={<></>} />
           </Route>
         </Routes>
       </div>
