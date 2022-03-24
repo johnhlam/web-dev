@@ -7,21 +7,22 @@ import WhoToFollowList from './WhoToFollowList';
 import whoReducer from "./reducers/WhoReducer";
 import tuitsReducer from './reducers/TuitsReducer';
 import navItemsReducer from './reducers/NavItemsReducer';
+import postItemsReducer from './reducers/PostsReducer';
 import "./styles.css";
 
 const reducer = combineReducers({
   navItems: navItemsReducer,
+  posts: postItemsReducer,
   tuits: tuitsReducer,
   who: whoReducer,
 });
 const store = createStore(reducer);
-// TODO: Netlify starts in the middle of the page
 const Tuiter = () => {
   return (
     <Provider store={store}>
       <div className="row mt-2">
         <div className="col-2 col-lg-1 col-xl-2">
-          <NavigationSidebar active="home" />
+          <NavigationSidebar />
         </div>
         <div className="col-10 col-lg-7 col-xl-6">
           <Outlet />
