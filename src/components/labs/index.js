@@ -11,6 +11,13 @@ import TodoList from './todo/todo-list';
 const Labs = () => {
   return (
     <>
+    <br/>
+      <Link to="/hello">
+        Hello
+      </Link> |
+      <Link to="/tuiter">
+        Tuiter
+      </Link>
       <h1>Labs</h1>
       <ConditionalOutput />
       <Styles />
@@ -18,12 +25,6 @@ const Labs = () => {
       <TodoItem />
       <TodoList />
       <ReduxExamples/>
-      <Link to="/hello">
-        Hello
-      </Link> | 
-      <Link to="/tuiter">
-        Tuiter
-      </Link>
       <h1>Non React.js Assignments</h1>
       <ul>
         <li><a href="labs/a2/index.html">Assignment 2 Labs</a></li>
