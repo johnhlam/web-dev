@@ -4,10 +4,10 @@ import { Provider } from "react-redux";
 import { Outlet } from "react-router-dom";
 import NavigationSidebar from './NavigationSidebar';
 import WhoToFollowList from './WhoToFollowList';
-import whoReducer from "./reducers/WhoReducer";
-import tuitsReducer from './reducers/TuitsReducer';
-import navItemsReducer from './reducers/NavItemsReducer';
-import postItemsReducer from './reducers/PostsReducer';
+import whoReducer from "../../reducers/WhoReducer";
+import tuitsReducer from '../../reducers/TuitsReducer';
+import navItemsReducer from '../../reducers/NavItemsReducer';
+import postItemsReducer from '../../reducers/PostsReducer';
 import "./styles.css";
 
 const reducer = combineReducers({

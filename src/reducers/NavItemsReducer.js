@@ -1,4 +1,4 @@
-import navItems from '../data/navItems.json';
+import navItems from '../components/tuiter/data/navItems.json';
 
 const navItemsReducer = (state = navItems) => {
   return (state);
