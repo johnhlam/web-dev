@@ -9,7 +9,7 @@ const TuitListItem = ({ tuit }) => {
 
   return (
     <li className="list-group-item">
-      <img className="fa-pull-left align-text-top rounded-circle wd-avatar-image" src={tuit['logo-image']} />
+      <img className="fa-pull-left align-text-top rounded-circle wd-avatar-image" src={`/images/${tuit['logo-image']}`} />
       <div className="overflow-hidden ps-3">
         <i onClick={() => deleteTuit(dispatch, tuit)} className="fa fa-remove fa-pull-right wd-clickable"></i>
         <span className="fw-bold">{tuit.postedBy.username}</span>
@@ -20,7 +20,7 @@ const TuitListItem = ({ tuit }) => {
         </div>
         {
           tuit.attachments && tuit.attachments.image &&
-          <img src={tuit.attachments.image}
+          <img src={`/images/${tuit.attachments.image}`}
             className="mt-2 wd-border-radius-20px w-100" />
         }
         {

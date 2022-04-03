@@ -13,8 +13,10 @@ export const createTuit = async (dispatch, tuit) => {
       "username": "ReactJS"
     },
     handle: 'ReactJS',
-    "logo-image": "/images/react-logo.png",
+    "avatar-image": "react-logo.png",
+    "logo-image": "react-logo.png",
     liked: false,
+    verified: false,
     disliked: false,
     stats: {
       retuits: 111,
