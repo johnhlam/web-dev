@@ -1,0 +1,11 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+  .wd-tweet-button {
+      width: auto;
+  }
+} 
+
+@media (max-width: 992px), (min-width: 1200px) {
+    .wd-tweet-button {
+    width: 100%;
+  }
+}

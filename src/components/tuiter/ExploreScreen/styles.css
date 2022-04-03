@@ -1,0 +1,17 @@
+#spacex-text {
+  color: white;
+  top: unset;
+  right: unset;
+  bottom: 0;
+  left: 0;
+}
+
+.wd-search-icon {
+  left: 10px;
+  top: 9px;
+}
+
+.wd-settings-button {
+  color: rgb(45,146,222);
+  text-decoration: none;
+}

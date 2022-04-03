@@ -1,0 +1,37 @@
+[
+  {
+    "faIcon": "fa-house-chimney",
+    "text": "Home",
+    "link": "home.html"
+  },
+  {
+    "faIcon": "fa-hashtag",
+    "text": "Explore",
+    "link": "#"
+  },
+  {
+    "faIcon": "fa-bell",
+    "text": "Notifications",
+    "link": "notifications.html"
+  },
+  {
+    "faIcon": "fa-envelope",
+    "text": "Messages",
+    "link": "messages.html"
+  },
+  {
+    "faIcon": "fa-bookmark",
+    "text": "Bookmarks",
+    "link": "bookmarks.html"
+  },
+  {
+    "faIcon": "fa-list",
+    "text": "Lists",
+    "link": "lists.html"
+  },
+  {
+    "faIcon": "fa-user",
+    "text": "Profile",
+    "link": "profile.html"
+  }  
+]
