@@ -8,7 +8,6 @@ export const DELETE_TUIT = 'DELETE_TUIT';
 export const createTuit = async (dispatch, tuit) => {
   const fullTuit = {
     tuit,
-    _id: (new Date()).getTime() + '',
     postedBy: {
       "username": "ReactJS"
     },
